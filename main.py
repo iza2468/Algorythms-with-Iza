@@ -151,6 +151,12 @@ def binarySearch(myItem, myList):
             top = middle - 1
     return found
 
+## PART 5
+## ---------------
+
+
+def randArray (n):
+     return [num = random.randint(1,1000) for i in range(n)]
 
 ## TESTING PROCESS
 ## ---------------
